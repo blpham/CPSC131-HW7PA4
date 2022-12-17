@@ -24,7 +24,7 @@ public:
                     calc(grid, i, j, currArea, n, island_id); // get the area of the current island
                     maxArea = max(maxArea, currArea); // compare the max area to the current area we just calculated
                     area[island_id] = currArea; // store the area into the map with its id
-                    currArea = 0; // resest currArea back to 0
+                    currArea = 0; // reset currArea back to 0
                     island_id++; // increase island_id so the next island will have a different id
                 }
             }
